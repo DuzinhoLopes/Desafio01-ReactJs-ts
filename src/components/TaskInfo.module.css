@@ -1,0 +1,35 @@
+.info {  
+  display: flex;
+  justify-content: space-between;
+
+  width: 46rem;
+  margin-top: 4rem;
+
+  font-weight: bold; 
+}
+
+.taskCreated {
+  color: var(--blue-300);
+}
+
+.taskCreated > span {
+  padding: 2px 8px;
+  border-radius: 99px;
+  background: var(--gray-400);
+  
+  color: var(--gray-100);
+  font-size: calc(0.5rem + 4px);
+}
+
+.taskCompleted{
+  color: var(--purple-300);
+}
+
+.taskCompleted > span{
+  padding: 2px 8px;
+  border-radius: 99px;
+  background: var(--gray-400);
+
+  color: var(--gray-100);
+  font-size: calc(0.5rem + 4px);
+}

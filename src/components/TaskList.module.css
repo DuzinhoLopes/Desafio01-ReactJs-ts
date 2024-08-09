@@ -1,0 +1,60 @@
+.divContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin-top: 24px;
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: calc(1rem + 4px);
+
+  min-width: 46rem;
+  min-height: 4.5rem;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  border-radius: 8px;
+}
+
+.labelChecked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.checkBoxRound { 
+  min-width: 18px;
+  min-height: 18px;
+  max-width: 18px;
+  max-height: 18px;
+
+  background-color: transparent;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid var(--blue-300);
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  position: relative; 
+}
+
+.checkBoxRound:checked {
+  border: none;
+  background:url(../assets/checked.svg) no-repeat;
+}
+
+.form button {
+  margin-left: auto;
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 2px;
+}
+
+.form button:hover {
+  color: var(--red-300);
+}

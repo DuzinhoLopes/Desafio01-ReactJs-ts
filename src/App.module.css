@@ -1,0 +1,28 @@
+.task{   
+  max-width: 46rem;
+  margin: auto; 
+  align-items: center;
+  
+  display: flex;
+  flex-direction: column;  
+}
+
+.noTask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 1.5rem;
+  width: 46rem;
+
+  border-top: 1px solid var(--gray-300);
+  border-radius: 8px;
+}
+.noTask img {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.noTask span {
+  font-weight: bold;
+}
